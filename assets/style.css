@@ -1,6 +1,7 @@
 .header {
   background-color: rgb(53, 52, 56);
   height: 75px;
+  width:100%;
   padding:0%;
 }
 
@@ -45,8 +46,8 @@
   height:50px;
   width:30%;
   margin: 0;
-  position: fixed;
-  top: 215px;
+  position: relative;
+  top: -70px;
   left: 815px;
 }
 
@@ -82,4 +83,14 @@ left: 240px;
   align-self: center;
   text-align: center;
   width: 100%;
+}
+
+.size1 {
+  height: 540px;
+  width:1020px;
+}
+
+.size2 {
+  height: 270px;
+  width:505px;
 }
