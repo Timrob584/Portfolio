@@ -1,54 +1,51 @@
-/* Style the header with a grey background and some padding */
 .header {
-    overflow: hidden;
-    background-color: royalblue;
-    padding: 20px 10px;
-  }
-  
-  /* Style the header links */
-  .header a {
-    float: left;
-    color: White;
-    font-weight: bold;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
-  }
-  
-  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-  .header a.name {
-    font-size: 50px;
-    font-weight: bold;
-  }
-  
-  /* Change the background color on mouse-over */
-  .header a:hover {
-    background-color: white;
-    color: black;
-  }
-  
-  /* Style the active/current link*/
-  .header a.active {
-    background-color: dodgerblue;
-    color: white;
-  }
-  
-  /* Float the link section to the right */
-  .header-right {
-    float: right;
-  }
-  
-  /* When the screen is 730px wide or less, stack the links on top of each other */
-  @media screen and (max-width: 730px) {
-    .header a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    .header-right {
-      float: none;
-    }
-  }
+  background-color: rgb(53, 52, 56);
+  height: 75px;
+  padding:0%;
+}
+
+.box {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  background-color: skyblue;
+  color:rgb(53, 52, 56);
+  height:75%;
+  width:25%;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.menu {
+  list-style: none;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  float:right;
+  justify-content: center;
+  margin:0 50px;
+  padding:0;
+}
+
+.banner {
+  width:100%;
+  height: 200px;
+}
+
+.box-2 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+ 
+  background-color: skyblue;
+  color:rgb(53, 52, 56);
+  height:50px;
+  width:30%;
+  margin: 0;
+  position: fixed;
+  top: 215px;
+  left: 815px;
+}
