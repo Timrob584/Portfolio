@@ -50,7 +50,7 @@
   left: 815px;
 }
 
-.about-me {
+.left-body {
   background-color: white;
   width: 200px;
   padding: 25px;
@@ -61,8 +61,25 @@
   border-color:rgb(53, 52, 56);
 }
 
-.about-text {
+.right-body {
+  display: flex;
+  flex-wrap: wrap;
 position:relative;
 top: -45px;
 left: 240px;
+}
+
+.image-placeholder {
+  background-color: #eee;
+  display: flex;
+  flex-wrap: wrap;
+  height: 180px;
+  margin: 5px;
+  width: 260px;
+}
+
+.image-placeholder > h4 {
+  align-self: center;
+  text-align: center;
+  width: 100%;
 }
