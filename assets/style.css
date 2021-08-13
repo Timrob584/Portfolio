@@ -1,20 +1,25 @@
+body {
+  overflow-x:hidden;
+}
+
 .header {
-  background-color: rgb(53, 52, 56);
+  background-color: rgb(72, 71, 75);
   height: 75px;
   padding:0%;
   display: flex;
   justify-content: space-between;
+  width:100vw
 }
 
 .box {
-    padding: 20px 10px;
-    line-height: 100%;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    background-color: skyblue;
-    color: rgb(53, 52, 56);
-    width: 25%;
+  padding: 20px 10px;
+  line-height: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  background-color: skyblue;
+  color: rgb(53, 52, 56);
+  width: 25%;
 
 }
 
@@ -30,12 +35,12 @@
   padding:0;
 }
 
-.color {
+.menu.color {
  color:white;
 }
 
 .banner {
-  width:100%;
+  width:100vw;
   height: 200px;
 }
 
@@ -46,30 +51,72 @@
   font-weight: bold;
   text-align: center;
   background-color: skyblue;
-  color: rgb(53, 52, 56);
+  color: rgb(72, 70, 75);
   width: 25%;
   position:relative;
   bottom: 90px;
-  left:840px;
+  left:1300px;
 }
 
 .left-body {
   background-color: white;
-  width: 200px;
+  width: 10vw;
   padding: 25px;
 }
 
-.solid {
+.solid-1 {
+  border-right-style:solid;
+  border-color:rgb(72, 71, 75);
+  height:11vh;
+}
+
+.link {
+  display:flex;
+  flex-wrap:wrap;
+  font-size: 40px;
+  font-weight:bold;
+  width:10px;
+  text-align: right;
+  position:relative;
+  left:60px;
+  bottom:5px;
+  color: rgb(72, 71, 75)
+}
+
+.solid-2 {
   border-right-style:solid;
   border-color:rgb(53, 52, 56);
+  height:15vh;
+}
+
+.solid-3 {
+  border-right-style:solid;
+  border-color:rgb(53, 52, 56);
+  height:15vh;
+}
+
+.solid-4 {
+  border-right-style:solid;
+  border-color:rgb(53, 52, 56);
+  height:15vh;
 }
 
 .right-body {
   display: flex;
   flex-wrap: wrap;
-position:relative;
-top: -45px;
-left: 240px;
+  position:relative;
+  top: -45px;
+  left: 240px;
+}
+
+#about-text {
+  display:flex;
+  flex-wrap:wrap;
+  width:80vw;
+  height:15vh;
+  position:relative;
+  bottom:85px;
+  font-size:25px;
 }
 
 .image-placeholder {
@@ -79,6 +126,8 @@ left: 240px;
   height: 180px;
   margin: 5px;
   width: 260px;
+  border-style: solid;
+  border-color: skyblue;
 }
 
 .image-placeholder > h4 {
@@ -89,10 +138,71 @@ left: 240px;
 
 .size1 {
   height: 540px;
-  width:1020px;
+  width:80vw;
 }
 
 .size2 {
   height: 270px;
-  width:505px;
+  width:39.6vw;
+}
+
+#contact {
+  position:relative;
+  left:25px;
+}
+
+#resume {
+  position:relative;
+  left:25px;
+}
+
+.number {
+  display: flex;
+  flex-wrap: wrap;
+  position:relative;
+  top: -45px;
+  left: 75px;
+}
+
+.email {
+  display: flex;
+  flex-wrap: wrap;
+  width:15vw;
+  position:relative;
+  top: -45px;
+  left: 250px;
+}
+
+.github {
+  display: flex;
+  flex-wrap: wrap;
+  width:15vw;
+  position:relative;
+  top: -45px;
+  left: 325px;
+}
+
+.twitter {
+  display: flex;
+  flex-wrap: wrap;
+  width:15vw;
+  position:relative;
+  top: -45px;
+  left: 375px;
+}
+
+.spotify {
+  display: flex;
+  flex-wrap: wrap;
+  width:15vw;
+  position:relative;
+  top: -45px;
+  left: 400px;
+}
+
+.resume-image {
+  width: 50vw;
+  height: 150vh;
+  position:relative;
+  bottom:125px;
 }
