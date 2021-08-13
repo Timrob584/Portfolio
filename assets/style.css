@@ -49,3 +49,20 @@
   top: 215px;
   left: 815px;
 }
+
+.about-me {
+  background-color: white;
+  width: 200px;
+  padding: 25px;
+}
+
+.solid {
+  border-right-style:solid;
+  border-color:rgb(53, 52, 56);
+}
+
+.about-text {
+position:relative;
+top: -45px;
+left: 240px;
+}
