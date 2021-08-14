@@ -56,22 +56,8 @@ nav a:focus {
   color: skyblue;
 }
 
-@media (max-width: 768px) {
-  .container {
-    text-align: center;
-  }
-
-  .container-nav {
-    flex-direction: column;
-  }
-
-  nav ul {
-    flex-direction: column;
-  }
-
-  nav li {
-    margin: 0.8em 0;
-  }
+.banner-flex {
+  position:relative;
 }
 
 .banner {
@@ -81,9 +67,8 @@ nav a:focus {
 }
 
 .container-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position:absolute;
+  top:50px;
   padding: 20px 10px;
   line-height: 100%;
   font-size: 20px;
@@ -92,12 +77,6 @@ nav a:focus {
   background-color: skyblue;
   color: rgb(72, 70, 75);
  width:25%;
-}
-
-@media (max-width: 768px) {
-  .container-2 {
-    text-align: center;
-  }
 }
 
 .left-body {
@@ -271,4 +250,28 @@ nav a:focus {
   background-color:rgb(72, 71, 75);
   color: white;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    text-align: center;
+  }
+.container-2 {
+  text-align:center;
+}
+  .container-nav {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin: 0.8em 0;
+  }
+
+  .work {
+    
+  }
 }
